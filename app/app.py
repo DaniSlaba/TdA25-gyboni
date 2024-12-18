@@ -23,7 +23,7 @@ def hello_world():  # put application's code here
 
 @app.route('/api')
 def api():
-    data = {'klic_api': 'hodnota_api'}
+    data = {'organization': 'Student Cyber Games'}
     return jsonify(data)
 
 if __name__ == '__main__':
