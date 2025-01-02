@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 flask = "*"
+flask_restful = "*"
 colorama = "*"
 importlib_metadata = "*"
 
